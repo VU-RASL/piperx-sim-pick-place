@@ -17,7 +17,7 @@ Full demo video: [Watch the pick-and-place run](https://drive.google.com/file/d/
 ## Clone the repository
 
 ```bash
-git clone https://github.com/muhammedahmedd/piperx-sim-pick-place.git piperx_sim_ws
+git clone https://github.com/VU-RASL/piperx-sim-pick-place.git piperx_sim_ws
 cd piperx_sim_ws
 ```
 
@@ -33,7 +33,7 @@ Clone it into the workspace `src/` folder:
 
 ```bash
 cd piperx_sim_ws/src
-git clone --recursive https://github.com/muhammedahmedd/piperx_arm_sim.git agx_arm_sim
+git clone --recursive https://github.com/VU-RASL/piperx_arm_sim.git agx_arm_sim
 ```
 
 The `--recursive` flag is important because `piperx_arm_sim` contains a URDF submodule. If you cloned it without `--recursive`, initialize the submodule manually:
